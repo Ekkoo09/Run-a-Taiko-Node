@@ -6,18 +6,18 @@ For my setup, I selected [Contabo](https://contabo.com/en/), a well-regarded pro
 
 My suggestion would be to go for the Cloud VPS M option. [https://contabo.com/en/](https://contabo.com/en/)
 
-![Contabo VPS Options](https://github.com/Ekkoo09/Taiko-Node/blob/main/images/Contabo1.png?raw=true)
+![Contabo VPS Options](https://drive.google.com/uc?export=download&id=1ynEzns8C2LSeEA8pNRkCe3OqHvElv4vO)
 
 1. Select Payment Term 
 2. Region - Germany
 3. Storage Type -400 GB SSD
 4. Image - Go to Apps & Panels > Docker
 
-![Contabo Image](https://github.com/Ekkoo09/Taiko-Node/blob/main/images/Contabo2.png?raw=true)
+![Contabo Image](https://drive.google.com/uc?export=download&id=1yszmTgxbtLlxTG3ZrGtR3W65_qHElsSv)
 
 5. Log in & Password for your Server
 
-![Contabo login](https://github.com/Ekkoo09/Taiko-Node/blob/main/images/Contabo3.png?raw=true)
+![Contabo login](https://drive.google.com/uc?export=download&id=1yvB1VJn6p8l55yRvmvJMIMhbvFHgqq3a)
 
 6. Object Storage - Default
 7. Networking - Default
@@ -28,7 +28,7 @@ After finalizing your payment, you'll get an email verifying your purchase. Hold
 You'll need to download and use Putty, a tool that enables you to securely connect to your VPS and utilize its functionalities.
 Download it here [https://www.putty.org/](https://www.putty.org/)
 
-![Putty login](https://github.com/Ekkoo09/Taiko-Node/blob/main/images/Putty1.png?raw=true)
+![Putty login](https://drive.google.com/uc?export=download&id=1z18EZ2AgTg_CNXK-6QSJgCZE_O2xCHxf)
 
 Enter the VPS IP Address then Click OPEN
 
@@ -36,7 +36,7 @@ Login : root
 
 Password: (is the one you set earlier on Contabo VPS) 
 
-![Root Password](https://github.com/Ekkoo09/Taiko-Node/blob/main/images/Putty2.png?raw=true)
+![Root Password](https://drive.google.com/uc?export=download&id=1z3EkbSBzT469-mNSeClrx1T8vnCBGksu)
 
 1. Install essential components 
     
@@ -112,7 +112,7 @@ Password: (is the one you set earlier on Contabo VPS)
     
     You should get this.
     
-    ![Hello World](https://github.com/Ekkoo09/Taiko-Node/blob/main/images/Putty3.png?raw=true)
+    ![Hello World](https://drive.google.com/uc?export=download&id=1z7yc1gDdiupnVwnqeZyquhkdkh1IRa0f)
     
     Now check Docker compose version :
     
@@ -189,4 +189,4 @@ Password: (is the one you set earlier on Contabo VPS)
         open http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview
         ```
    You can verify that your node is syncing by checking that the chain head on the dashboard (see below) is increasing. Once the chain head matches what's on the block explorer, you are fully synced.
-   ![Grafana](https://raw.githubusercontent.com/Ekkoo09/Taiko-Node/main/images/node-dashboard.webp?token=GHSAT0AAAAAACLYD3XQBY5SUNSTDUPDEQLSZMOT5KA)
+   ![Grafana](https://raw.githubusercontent.com/Ekkoo09/Taiko-Node/main/images/node-dashboard.webp?token=GHSAT0AAAAAACMAN7W4V24NTJHK5MWBBUJCZMOYXEA)
