@@ -8,14 +8,14 @@ My suggestion would be to go for the Cloud VPS M option. [https://contabo.com/en
 
 ![Contabo VPS Options](https://drive.google.com/uc?export=download&id=1ynEzns8C2LSeEA8pNRkCe3OqHvElv4vO)
 
-1. Select Payment Term 
+1. Select Payment Terms 
 2. Region - Germany
-3. Storage Type -400 GB SSD
+3. Storage Type - 400 GB SSD
 4. Image - Go to Apps & Panels > Docker
 
 ![Contabo Image](https://drive.google.com/uc?export=download&id=1yszmTgxbtLlxTG3ZrGtR3W65_qHElsSv)
 
-5. Log in & Password for your Server
+5. Log in & Set Password for your Server
 
 ![Contabo login](https://drive.google.com/uc?export=download&id=1yvB1VJn6p8l55yRvmvJMIMhbvFHgqq3a)
 
@@ -189,4 +189,4 @@ Password: (is the one you set earlier on Contabo VPS)
         open http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview
         ```
    You can verify that your node is syncing by checking that the chain head on the dashboard (see below) is increasing. Once the chain head matches what's on the block explorer, you are fully synced.
-   ![Grafana](https://raw.githubusercontent.com/Ekkoo09/Taiko-Node/main/images/node-dashboard.webp?token=GHSAT0AAAAAACMAN7W4V24NTJHK5MWBBUJCZMOYXEA)
+   ![Grafana](https://drive.google.com/uc?export=download&id=1bmOe0VJQSmv0IJjyodRD2uEHfUZGJRno)
